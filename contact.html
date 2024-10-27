@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Online Book Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styling for contact form */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .contact-details, .form-group {
+            margin-bottom: 15px;
+        }
+        .contact-details ul {
+            list-style: none;
+            padding: 0;
+            color: #333;
+            font-size: 16px;
+            text-align: center;
+        }
+        .contact-details ul li {
+            margin: 5px 0;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-title">The Book Bazzar</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="featured.html">Featured Books</a></li>
+                <li><a href="fictional.html">Fictional Books</a></li>
+                <li><a href="nonfiction.html">Non-Fictional Books</a></li>
+                <li><a href="children.html">Children's Books</a></li>
+                <li><a href="authors.html">Authors Highlight</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section class="content">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-details">
+                <p>Have any questions or need help? Contact us at:</p>
+                <ul>
+                    <li><strong>Email:</strong> support@onlinebookstore.com</li>
+                    <li><strong>Phone:</strong> +91 7082753649</li>
+                    <li><strong>Address:</strong> 123 Book Street, Library City, BK 56789</li>
+                </ul>
+            </div>
+            
+            <!-- Contact Form -->
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number</label>
+                    <input type="tel" id="contact" name="contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <a href="#" class="submit-btn">Submit</a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Book Bazzar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
